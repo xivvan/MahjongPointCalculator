@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mahjong Point Calculator</title>
+</head>
+<body>
+    <div class = "container">
+        <h1>Mahjong Point Calculator</h1>
+        <p class="readme">When calculating Fu, double the input if kang or triplets is melded with honor or terminal tiles.</p>
+        <form class='conditions'>
+        <div class="riichi">
+        <input type="radio" name="val1" value="Riichi">
+        <label  class="form-check-label">Riichi</label>
+        <input class='hidden' type="radio" name="val1" value="No-Riichi">
+        </div>
+        <div class="ippatsu">
+            <input type="radio" name="val2" value="Ippatsu">
+            <label  class="form-check-label">Ippatsu</label>
+            <input class='hidden' type="radio" name="val2" value="No-Ippatsu">
+            </div>
+            <div class="ron">
+                <input type="radio" name="val3" value="Ron">
+                <label  class="form-check-label">Ron</label>
+                <input class='hidden' type="radio" name="val3" value="No-Ron">
+                </div>
+                <div class="tsumo">
+                    <input type="radio" name="val4" value="Tsumo">
+                    <label  class="form-check-label">Tsumo</label>
+                    <input class='hidden' type="radio" name="val4" value="No-Tsumo">
+                    </div>
+                    <div class="dora">
+                        <input type="text" name="val5" value="">
+                        <label  class="form-check-label">Dora</label>
+        
+                        </div>
+                        <div class="uradora">
+                            <input type="text" name="val6" value="">
+                            <label  class="form-check-label">Ura Dora</label>
+                            </div>
+                            <div class="Full-Straight">
+                                <input type="radio" name="val7" value="Full-Straight">
+                                <label  class="form-check-label">Full-Straight</label>
+                                <input class='hidden' type="radio" name="val7" value="No-FS">
+                                </div>
+                                <div class="doubleriichi">
+                                    <input type="radio" name="val8" value="doubleriichi">
+                                    <label  class="form-check-label">Double Riichi</label>
+                                    <input class='hidden' type="radio" name="val8" value="No-DR">
+                                    </div>
+                                    <div class="wind">
+                                        <input type="radio" name="val9" value="wind">
+                                        <label  class="form-check-label">Seated Wind</label>
+                                        <input class='hidden' type="radio" name="val9" value="No-Wind">
+                                        </div>
+                                        <div class="open-triplets">
+                                            <input type="text" name="val11" value="">
+                                            <label  class="form-check-label">Open triplets</label>
+                                            </div>
+                                            <div class="closed-triplets">
+                                                <input type="text" name="val12" value="">
+                                                <label  class="form-check-label">Concealed triplets</label>
+                                                </div>
+                                                <div class="open-kang">
+                                                    <input type="text" name="val13" value="">
+                                                    <label  class="form-check-label">Open Kang</label>
+                                                    </div>
+                                                    <div class="closed-kang">
+                                                        <input type="text" name="val14" value="">
+                                                        <label  class="form-check-label">Concealed Kang</label></div>
+                                        <div class="last-tile">
+                                            <input type="radio" name="val10" value="last-tile">
+                                            <label  class="form-check-label">Last Tile Discard</label>
+                                            <input class='hidden' type="radio" name="val10" value="No-LT">
+                                            <div class="dealer">
+                                                <input type="radio" name="val15" value="dealer">
+                                                <label  class="form-check-label">Are you the dealer?</label>
+                                                <input class='hidden' type="radio" name="val15" checked value="No-dealer">
+                                                </div>
+                                           
+
+                                            </div>
+                                            <input type="submit">
+                                        </form>
+                                        <div class="honor">
+                                            <p>Honor Tiles</p>
+                                            <embed src="red dragon.png" class="red-dragon">
+                                            <embed src="white dragon.png" class="white-dragon">
+                                            <embed src="green drake.png"class="green-dragon">
+                                            <embed src="wind 1 .png" class="wind-1">
+                                            <embed src="wind 2.png"class="wind-2">
+                                            <embed src="wind 3.png" class="wind-3">
+                                            <embed src="wind 4.png"class="wind-4">    
+                                        </div>
+                                        <div class="terminal-tiles">
+                                            <p>Terminal Tiles</p>
+                                            <embed src="1 .jpg" class="one">
+                                            <embed src="9.png" class="nine">
+                                            <embed src="bamboo 1.png" class="bamboo-1">
+                                            <embed src="bamboo 9 .png" class="bamboo-9">
+                                            <embed src="Dot 1.jpg" class="dot-1">
+                                            <embed src="dot 9.png" class="dot-9">    
+                                        </div>
+        <p class="result">Result: </p>
+        <p class="calculate-points"></p>
+    </div>
+    
+    
+    <script src="app.js"></script>
+    <audio class="music hidden" src="riichi.mp3" loop="true" autoplay="true" controls></audio>
+</body>
+</html>

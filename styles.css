@@ -1,0 +1,232 @@
+html {
+    color:white;
+    font-family: 'Yakuza';
+    background-image: url(https://i.pinimg.com/originals/65/55/f5/6555f54c73c5b22c6f2e61177dd5893a.jpg);
+}
+.container {
+    background-color: green;
+    padding: 650px;
+    margin: auto 300px;
+    text-align: center;
+    position: relative;
+    border: 10px solid white;
+    border-radius: 10%;
+    max-width: 650px;
+    min-width: 650px;
+    
+}
+
+h1 {
+    position: absolute;
+    margin-top: -650px;
+    margin-left: 0px;
+    font-size: 50px;
+    
+    
+}
+@font-face {
+    font-family:"Yakuza";
+    src: url("/font/edosz.ttf") format("truetype");
+  }
+  p {
+      position: absolute;
+      margin-left: -250px;
+      margin-top: 550px;
+      font-size: 35px;
+  }
+
+  .riichi{
+      float: left;
+      margin-top: -500px
+  }
+  .ippatsu{
+     float: left;
+     margin-top: -460px;
+  }
+  .ron{
+    float: left;
+    margin-top: -420px;
+ }
+ .tsumo{
+    float: left;
+    margin-top: -380px;
+ }
+ .wind {
+    float: left;
+    margin-top: -340px;
+}
+ .dora{
+    float: right;
+    margin-top: -500px;
+    
+ }
+ .dora input {
+ width: 20px;
+ border: 1px solid crimson;
+ border-radius: 0%;
+ }
+ .uradora{
+    float: right;
+    margin-top: -460px;
+    
+ }
+ .uradora input {
+     width: 20px;
+     border: 1px solid crimson;
+
+ }
+ .Full-Straight{
+    float: right;
+    margin-top: -420px;
+ }
+ .doubleriichi {
+     float: right;
+     margin-top: -380px;
+ }
+ .last-tile {
+    float: right;
+    margin-top: -340px;
+}
+  label {
+    font-size: 25px;
+  }
+
+  .hidden{
+      display:none;
+  }
+  .open-kang{
+    float: right;
+    margin-top: -300px;
+  }
+  .closed-kang{
+      float: right;
+      margin-top: -260px;
+  }
+  .open-triplets{
+      float: left;
+      margin-top: -300px;
+  }
+  .closed-triplets{
+      float: left;
+      margin-top: -260px;
+  }
+  .closed-triplets input {
+      width: 20px;
+      border: 1px solid crimson;
+  }
+  .open-triplets input {
+    width: 20px;
+    border: 1px solid crimson;
+}
+.closed-kang input {
+    width: 20px;
+    border: 1px solid crimson;
+}
+.open-kang input {
+    width: 20px;
+    border: 1px solid crimson;
+}
+
+.readme {
+    position: absolute;
+    margin-top: -580px;
+    font-size: 15px;
+    margin-left: -50px;
+}
+.dealer {
+    margin-left: -400px;
+    margin-top: 250px;
+}
+
+.green-dragon{
+    float: right;
+    position: absolute;
+    margin-left: -670px;
+}
+.red-dragon{
+    float: right;
+    position: absolute;
+    margin-left: -580px;
+}
+.white-dragon{
+    float: right;
+    position: absolute;
+    margin-left: -490px;
+}
+.wind-1{
+    float: right;
+    position: absolute;
+    margin-left: -490px;
+    margin-top: -120;
+}
+.wind-2{
+    float: right;
+    position: absolute;
+    margin-left: -580px;
+    margin-top: -120;
+}
+.wind-3{
+    float: right;
+    position: absolute;
+    margin-left: -670px;
+    margin-top: -120;
+}
+.wind-4{
+    float: right;
+    position: absolute;
+    margin-left: -760px;
+    margin-top: -120;
+}
+.honor p {
+position: absolute;
+margin-top: -180;
+margin-left: -350px;
+}
+
+.nine {
+position: absolute;
+float: right;
+margin-top: -120px;
+margin-left: 580px;
+}
+.one {
+    position: absolute;
+    float: right;
+    margin-top: -5px;
+    margin-left: 572px;
+    }
+.bamboo-1 {
+        position: absolute;
+        float: right;
+        margin-top: -5px;
+        margin-left: 670px;
+        }
+.bamboo-9 {
+            position: absolute;
+            float: right;
+            margin-top: -120px;
+            margin-left: 670px;
+            }
+.dot-1 {
+    position: absolute;
+    float:right;
+    margin-top: -5px;
+    margin-left: 760px;
+}
+.dot-9 {
+    position: absolute;
+    float:right;
+    margin-top: -120px;
+    margin-left: 760px;
+}
+
+.terminal-tiles p {
+    float: right;
+    position: absolute;
+    margin-top: -175px;
+    margin-left: 900px;
+}
+.calculate-points{
+position: absolute;
+margin-top: 500px;
+}
