@@ -25,8 +25,15 @@ h1 {
     
 }
 @font-face {
-    font-family:"Yakuza";
-    src: url("/font/edosz.ttf") format("truetype");
+    font-family: 'Yakuza';
+    src: url('font/EdoSZ.eot');
+    src: url('font/EdoSZ.eot?#iefix') format('embedded-opentype'),
+        url('font/EdoSZ.woff2') format('woff2'),
+        url('font/EdoSZ.woff') format('woff'),
+        url('font/EdoSZ.svg#EdoSZ') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
   }
   p {
       position: absolute;
